@@ -1,5 +1,4 @@
 import React, {useState} from 'react';
-import NightTheme from '../Assets/Image/night_theme.svg'
 import {ThemeProvider} from "styled-components";
 import {PrimaryButton,SecondaryButton,TertiaryButton} from '../Components/Common/Button/Buttons';
 import {GlobalStyle, darkTheme, defaultTheme} from "../Components/Common/Utils";
