@@ -1,0 +1,13 @@
+import { Meta, Story, Preview } from "@storybook/addon-docs/blocks";
+import {action} from "@storybook/addon-actions";
+import { PrimaryButton, SecondaryButton, TertiaryButton } from "./Buttons";
+import {SignUpModal} from "./Modal";
+import { withKnobs, boolean } from "@storybook/addon-knobs";
+
+<Meta title="Design System|Modal" component={SignUpModal} />
+
+<Preview withToolbar>
+  <Story name="signUp">
+    <SignUpModal showModal={boolean("Show Modal",true)}/>
+  </Story>
+</Preview>
