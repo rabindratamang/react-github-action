@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import {ThemeProvider} from "styled-components";
-import {PrimaryButton,SecondaryButton,TertiaryButton} from '../Components/Common/Button/Buttons';
+import {PrimaryButton,SecondaryButton,TertiaryButton, SignUpModal} from '../Components/Common';
 import {GlobalStyle, darkTheme, defaultTheme} from "../Components/Common/Utils";
 
 function App() {
@@ -50,6 +50,7 @@ function App() {
           <TertiaryButton modifiers={["error", "tertiaryButtonError"]}>
             Hey world
           </TertiaryButton>
+          <SignUpModal/>
         </div>
       <GlobalStyle/>
   </ThemeProvider>
